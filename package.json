@@ -1,0 +1,23 @@
+{
+  "name": "Music-app",
+  "version": "1.0.0",
+  "description": "App that plays music, saves playlist, and has an algorithm for randomising songs",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NotRayhaan/Music-app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NotRayhaan/Music-app/issues"
+  },
+  "homepage": "https://github.com/NotRayhaan/Music-app#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
