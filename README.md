@@ -10,7 +10,7 @@ CSS managed by Material UI,
 
 ### Dependencies
 
-* Windows 10, Node.js, 
+* Windows 10, Node.js, nodemon
 
 ### Installing
 
