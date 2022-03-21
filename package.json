@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/NotRayhaan/Music-app#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "express": "^4.17.2",
+    "spotify-web-api-node": "^5.0.2"
   }
 }
