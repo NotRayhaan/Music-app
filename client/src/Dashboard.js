@@ -3,7 +3,7 @@ import useAuth from './useAuth';
 import { FormControl, TextField, Box, Paper} from '@mui/material';
 import SpotifyWebApi from 'spotify-web-api-node';
 import TrackSearchResult from './TrackSearchResults';
-import Player from './player';
+import Player from './Player';
 
 const spotifyApi = new SpotifyWebApi({
     clientId: "5d37e1754b58435f8c6f804a0ddbee9c",
