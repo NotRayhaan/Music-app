@@ -2,9 +2,13 @@ import { Card, CardContent, Typography } from '@mui/material';
 import { Box } from '@mui/system';
 import React from 'react';
 
-export default function TrackSearchResult ({track}) {
+export default function TrackSearchResult ({track, chooseTrack}) {
+    function handlePlay(){
+        chooseTrack(track);
+    } 
+
     return(
-            <Card variant="outlined" >
+            <Card variant="outlined" style={{cursor: "pointer"}} onClick={handlePlay}>
                 <CardContent sx={{ display: 'flex', flexDirection: 'row'}}>
                     <img src={track.albumUrl} style={{height: '64px', width: '64px'}} />
                     <Box sx={{display: 'flex', flexDirection: 'column', justifyContent: 'flex-start', p:1}}>
